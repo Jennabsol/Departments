@@ -115,7 +115,7 @@ namespace DepartmentStuff.Controllers
                         }
                     }
                     
-                    var employeeSuperVisor = detailsView.department.employees.Find(e => e.Id == id);
+                    var employeeSuperVisor = detailsView.department.employees.Find(e => e.IsSuperVisor == true);
                     detailsView.SuperVisor = $"{employeeSuperVisor.FirstName} {employeeSuperVisor.LastName}";
                     reader.Close();
                     return View(detailsView);
