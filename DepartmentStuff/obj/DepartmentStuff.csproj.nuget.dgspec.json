@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jenna\\workspace\\DepartmentStuff\\DepartmentStuff\\DepartmentStuff.csproj": {}
+    "C:\\Users\\bryan\\Workspace\\csharp\\Departments\\DepartmentStuff\\DepartmentStuff.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jenna\\workspace\\DepartmentStuff\\DepartmentStuff\\DepartmentStuff.csproj": {
+    "C:\\Users\\bryan\\Workspace\\csharp\\Departments\\DepartmentStuff\\DepartmentStuff.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jenna\\workspace\\DepartmentStuff\\DepartmentStuff\\DepartmentStuff.csproj",
+        "projectUniqueName": "C:\\Users\\bryan\\Workspace\\csharp\\Departments\\DepartmentStuff\\DepartmentStuff.csproj",
         "projectName": "DepartmentStuff",
-        "projectPath": "C:\\Users\\jenna\\workspace\\DepartmentStuff\\DepartmentStuff\\DepartmentStuff.csproj",
-        "packagesPath": "C:\\Users\\jenna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jenna\\workspace\\DepartmentStuff\\DepartmentStuff\\obj\\",
+        "projectPath": "C:\\Users\\bryan\\Workspace\\csharp\\Departments\\DepartmentStuff\\DepartmentStuff.csproj",
+        "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bryan\\Workspace\\csharp\\Departments\\DepartmentStuff\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jenna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

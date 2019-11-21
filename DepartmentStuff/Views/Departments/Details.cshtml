@@ -7,15 +7,9 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Department</h4>
+    <h4>@Html.DisplayFor(model => model.department.Name) Department</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.department.Id)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.department.Id)
-        </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.department.Name)
         </dt>
@@ -35,18 +29,19 @@
             @Html.DisplayFor(model => model.SuperVisor)
         </dd>
     </dl>
-
+    <h4>Employees</h4>
     <div>
         @foreach (var item in Model.department.employees)
         {
-            var employeeName = $"{item.FirstName} {item.LastName}";
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">
-                    @employeeName
-                </h5>
+            var supervisorStyle = item.IsSuperVisor ? "background-color: #00c0d4; color: white" : null;
+            var employeeName = item.IsSuperVisor ? $"{item.FirstName} {item.LastName} - Supervisor" : $"{item.FirstName} {item.LastName}";
+            <div class="card" style="width: 18rem;">
+                <div class="card-body" style="@supervisorStyle">
+                    <h5 class="card-title">
+                        @employeeName
+                    </h5>
+                </div>
             </div>
-        </div>
 
 
         }
